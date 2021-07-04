@@ -10,9 +10,17 @@ h1{
 }
 section
 {
-    display: flex;
+    
     margin-bottom: 100px;
+  
 }
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+
 .width-div
 {
     width: 50%;
@@ -21,6 +29,31 @@ section
 .width-div img
 {
     width: 80%;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+   box-shadow: 10px 10px 40px gray; 
+   padding-left: 20px;
+   border-radius: 10px;
+   border-left: 10px solid;
+}
+.exp-area
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#web-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(blue ,red) ;
+    border-image-slice: 1;
+}
+#full-dev{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(40, 189, 169) ,red) ;
+    border-image-slice: 1;
 }
 .link-button
 {
@@ -41,4 +74,10 @@ section
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+h2{
+    font-size: 40px;
+}
+footer p{
+    text-align: center;
 }
